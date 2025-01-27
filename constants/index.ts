@@ -72,28 +72,28 @@ export const EXPERIENCES_DATA = [
 // Data for projects
 export const PROJECTS_DATA = [
   {
-    title: "CarHub",
+    title: "Viroom",
     description:
-      "A web app that is built using NextJS and enables users to quickly search and obtain information about cars.",
+      "A web app that is built using NextJS and enables users to quickly connect with their friends.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Headless UI"],
     imageUrl: carhubImg,
-    projectUrl: "#",
+    projectUrl: "https://viroom.vercel.app/",
   },
   {
-    title: "Realtor",
+    title: "VacationHub",
     description:
       "Buy and rent homes for everyone. I was the front-end developer. It has features like filtering, sorting, and pagination.",
     tags: ["React", "Chakra UI", "Next.js", "Framer Motion", "React Icons"],
     imageUrl: realtorImg,
-    projectUrl: "#",
+    projectUrl: "https://vacationalhub.vercel.app/",
   },
   {
-    title: "ECommerce Store",
+    title: "Cara",
     description:
       "A NextJS-based eCommerce store that allows users to order different products. It supports real-time payments using Stripe.",
     tags: ["React", "Next.js", "Sanity", "React Router", "Stripe"],
     imageUrl: ecommerceImg,
-    projectUrl: "#",
+    projectUrl: "https://caara.vercel.app/",
   },
 ] as const;
 
